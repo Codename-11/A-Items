@@ -1,6 +1,7 @@
 package net.axiomlabs.aitems;
 
 import com.mojang.logging.LogUtils;
+import net.axiomlabs.aitems.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -30,10 +31,10 @@ public class aitems {
     public aitems() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register the commonSetup method for modloading
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
-        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
 

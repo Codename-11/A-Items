@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7d2863-02fa-4bf0-ad74-8c5fca51b4eb" name="Changes" comment="Initial-Comit" />
+    <list default="true" id="5a7d2863-02fa-4bf0-ad74-8c5fca51b4eb" name="Changes" comment="Initial-Comit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/axiomlabs/aitems/item/ModItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aitems/lang/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aitems/models/item/axiom.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aitems/models/item/raw_axiom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/A-Items.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/A-Items.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/A-Items.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/A-Items.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/axiomlabs/aitems/aitems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/axiomlabs/aitems/aitems.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,19 +45,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="A-Items" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="A-Items" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="A-Items" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -51,6 +53,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,16 +74,26 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/timot/SynologyDrive/1. Open Projects/8. Games/Forge Modding/A-Items",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/timot/SynologyDrive/1. Open Projects/8. Games/Forge Modding/A-Items/src/main/resources/assets/aitems/models/item",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.A-Homes [build]">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\SynologyDrive\1. Open Projects\8. Games\Forge Modding\A-Items\src\main\resources\assets\aitems\models\item" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\timot\SynologyDrive\1. Open Projects\8. Games\Forge Modding\A-Items\src\main\resources\assets\aitems\textures\item" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.A-Homes [runClient]">
     <configuration name="A-Homes [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -140,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.A-Homes [build]" />
         <item itemvalue="Gradle.A-Homes [runClient]" />
+        <item itemvalue="Gradle.A-Homes [build]" />
         <item itemvalue="Gradle.A-Homes [genIntellijRuns]" />
       </list>
     </recent_temporary>
