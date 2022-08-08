@@ -1,4 +1,6 @@
 {
   "item.aitems.axiom": "Axiom",
-  "item.aitems.raw_axiom": "Raw Axiom"
+  "item.aitems.raw_axiom": "Raw Axiom",
+
+  "itemGroup.aitems_tab": "A-Items Tab"
 }
